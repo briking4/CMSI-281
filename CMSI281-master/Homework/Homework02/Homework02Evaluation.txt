@@ -1,0 +1,87 @@
+
+Homework02 Evaluation
+======================
+
+Your IntStack didn't compile, due to a missing final closing curly brace.  I
+fixed that for you and all is well.
+
+There was no Queue testing included, and your main in that file is empty, so
+I put a copy of my test harness in your directory, modified to match the name
+of your display() method and it seems to work fine up to the last when there
+is a "ArrayIndexOutOfBoundsException" thrown.  Probably some mis-match in
+your code and mine, but check it out to be sure.  You earned 1/2 credit for
+each of those items.
+
+Deque runs fine.
+
+It would be helpful to provide the user with more output as to what is going
+on with the program.  Your CircLinkedList runs, but it's a little hard to
+tell what operations are being tested without looking at the code.
+
+IntStack, once compiled, throws a "" right off.  Again, without more output
+to see what's happeneing, it's hard to determine at what point this is
+occurring.  Good thing that's only one point!
+
+Nice work on Josephus!
+
+When you copy code from the textbook, you should re-format it so that it has
+proper indenting.  I know it's kind of a PITA, but the upside is you get to
+read through the code and learn what it's doing, to familiarize yourself.
+This is an invaluable skill when you are MODIFYING someone else's code, and
+that is a job to which many entry-level software developers are assigned.
+
+Otherwise, very nice work on this assignment, you two!  You seem to be a
+good team!  Keep up the good work...........
+
+
+Evaluation follows.
+
+scores:                                       worth      yours
+=============================                -------     -----
+Queue.java
+   Queue class compiles                      [1 pt.]       1
+   display method exists                     [1 pt.]       1
+QueueApp.java or main in Queue.java
+   QueueApp class compiles                   [1 pt.]       0.5
+   tests insert()                            [1 pt.]       0.5
+   tests remove()                            [1 pt.]       0.5
+   tests display()                           [1 pt.]       0.5
+   tests wrap-around insert, remove, display [1 pt.]       0.5
+Deque.java
+   Deque class compiles                      [1 pt.]       1
+   insertLeft method exists                  [1 pt.]       1
+   insertRight method exists                 [1 pt.]       1
+   removeLeft method exists                  [1 pt.]       1
+   removeRight method exists                 [1 pt.]       1
+   isEmpty method exists                     [1 pt.]       1
+   isFull method exists                      [1 pt.]       1
+DequeApp.java or main in Deque.java
+   tests insertLeft()                        [1 pt.]       1
+   tests insertRight()                       [1 pt.]       1
+   tests removeLeft()                        [1 pt.]       1
+   tests removeRight()                       [1 pt.]       1
+   tests isEmpty()                           [1 pt.]       1
+   tests isFull()                            [1 pt.]       1
+CircluarLinkedList.java
+   Circular linked list class compiles       [1 pt.]       1
+   insertion method works                    [1 pt.]       1
+   deletion method works                     [1 pt.]       1
+   searching method works                    [1 pt.]       1
+CircularStack.java
+   circular stack class compiles             [1 pt.]       1
+   tests work as advertised                  [1 pt.]       0
+Josephus.java
+   Josephus problem class compiles           [EC 2 pt.]    2
+   works as advertised                       [EC 5 pt.]    5
+Coding style
+   Good names, consistent indenting          [4 pt.]       4
+   Headers in all files [free not mentioned] [5 pt.]       5
+
+Total points is 35 for Queue, Deque, and Circ x 2
+ extra credit is 7 points for Josephus
+-------------------
+Grand total is 42 points
+
+You got 38.5 out of 35 which is 101.4% which is an A-plus
+
+

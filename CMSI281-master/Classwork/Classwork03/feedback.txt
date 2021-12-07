@@ -1,0 +1,10 @@
+
+
+Nice work on this one, too.
+
+One thing to think about: when you are passing an argument, verify that it's
+correct BEFORE you use it.  Check out the order of what you have in your
+"removeValueAtIndex()" method......
+
+Keep up the good work, you two!!
+

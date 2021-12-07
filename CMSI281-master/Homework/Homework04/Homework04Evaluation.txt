@@ -1,0 +1,90 @@
+
+Homework04 Evaluation
+======================
+
+Nice job on this assignment...
+
+Your code looks great and thanks for doing headers!
+
+scores:
+=============================
+Tree Traverser
+   inOrderTraverser method implemented       [1 pt.]
+   2 test sets with at least minimal nodes   [2 pt.]
+   produces proper sequences                 [2 pt.]
+
+Priority Queue
+   Queue creation works correctly            [1 pt.]
+   insertion works correctly                 [1 pt.]
+   isFull() works correctly                  [1 pt.]
+   isEmpty() works correctly                 [1 pt.]
+   removal() works correctly                 [1 pt.]
+   heap representation works correctly       [1 pt.]
+
+Linear Probing String Hasher
+   menu works [gimme, has to work if there]  [1 pt.]
+   shows contents                            [1 pt.]
+   hash table created correctly              [1 pt.]
+   insertion works correctly                 [1 pt.]
+   linear probing works correctly            [1 pt.]
+   deletion works correctly                  [1 pt.]
+   finding works correctly                   [1 pt.]
+
+Digit Folding Hasher
+   menu works [gimme, has to work if there]  [1 pt.]
+   shows contents                            [1 pt.]
+   insertion works correctly                 [1 pt.]
+   linear probing works correctly            [1 pt.]
+   deletion works correctly                  [1 pt.]
+   finding works correctly                   [1 pt.]
+
+Coding style                                 [1 pt.]
+Tests written to test all classes            [1 pt.]
+Headers in all files                         [2 pt.]
+
+Total credit is 30 points
+-------------------------
+
+you got 28 out of 30 which is 100% which is an A-minus
+
+Notes:
+======
+Nice work on this assignment, as usual!
+
+Just a couple of things from a software/user perspective:  It is ALWAYS good
+to let the user know what is happeneing.  Your Tree Traverser, for example,
+shows the correct output, but doesn't tell the user what she is looking at,
+so without reading the code, there is no real idea of what this does.  Just
+as a note, try to output meaningful messages to the user so that she will
+be able to understand just what you are doing.
+
+Tree Traverser is right, and so it PriorityQ.
+
+You missed the point of the hash table.  The whole idea is to store VALUES
+at the indices in the table, NOT THE VALUES OF THE INDICES.  What you have
+is working, so you earn some credit, but I need to re-iterate the idea here.
+
+The idea is you have a single table.  You take in a value of some kind, let's
+say "mary".  You hash the value of the string and get an index, let's say 57.
+You then put the STRING "mary" into your table at index 57.
+
+What you have done with your code is stored the value 57 at index 57, so if
+I go searching for "mary" I won't find "mary" but instead will find "57".
+And in fact, that is what is output from your code.
+
+You should also have a method to "insert" and to "remove", and you need some
+way of displaying the table.
+
+Also, you have created FIVE hash tables where there should be only one.  Or
+rather, for your solution since you combined the last two exercises, there
+should be TWO tables, but not FIVE.  One would be for the linear probing
+demonstration, and the other for the digit folding hashing.
+
+Unfortunately, you took out the menuing system which was in the book code, so
+there is no way I can test values that you haven't coded in.  I can't tell if
+Linear Probing is working, and I can't tell for sure if digit folding is
+either.  However, this close to the end of the semester, there isn't time for
+a "do-over".  I take responsibility for the lack of understanding on this one
+so no harm no foul.
+
+You didn't put file headers in your all code...  dang!

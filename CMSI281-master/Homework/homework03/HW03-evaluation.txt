@@ -1,0 +1,83 @@
+
+Homework03 Evaluation
+======================
+You MUST do problem 1, the "odd-even sort"
+
+You MUST do EITHER problem 2, Huffman, OR problem 3, Simon.
+Whichever one you choose is your option, but you must indicate
+which one you choose.  If you want to do both of them, you will
+be given extra credit for whatever points you get correct on
+the second problem.  For example, if you choose to do Simon and
+it is completely correct, and you do Huffman for extra credit
+and get 5 out of 7 correct, you will get 136% for the assignment.
+The extra points will be applied at the end of the semester to
+improve your overall score for the course.
+
+Assuming odd-even sort is correct, of course....
+=============================
+
+
+Nice work on this assignment!
+Here are a couple of observations and comments:
+
+
+scores:
+=============================
+OddEvenSorter.java
+   oddEvenSort implemented                   [1 pt.]
+   compiles                                  [1 pt.]
+   main() to test sorting                    [1 pt.]
+   works as advertised                       [1 pt.]
+
+SimonGame.java
+   randomized array                          [1 pt.]
+   display/erase sequences                   [0.5 pt.]
+   check user's guess against array          [1 pt.]
+   increment letter count each iteration     [1 pt.]
+   play again message on incorrect entry     [1 pt.]
+   compiles                                  [1 pt.]
+   works as advertised                       [1 pt.]
+
+HuffmanCoding.java
+   count character occurrences               [1 pt.]
+   use some sort of queue to build tree      [1 pt.]
+   tree constructed correctly                [1 pt.]
+   message encoded correctly                 [1 pt.]
+   message decoded correctly                 [0.5 pt.]
+   compiles                                  [1 pt.]
+   works as advertised                       [1 pt.]
+
+Coding style                                 [1 pt.]
+Tests written to test all classes            [1 pt.]
+Headers in all files                         [1 pt.]
+
+Total credit is 14 for Sorter and either Simon or Huffman
+   extra credit is 7 points for other of Simon or Huffman
+-------------------------
+ Grand total is 21 points for all three
+
+You earned:
+-----------
+
+you got 20 out of 14 which is 142.86% which is still an A-plus
+
+
+======================================================================
+AWESOME job on this assignment!
+
+Everything works great, except in Simon you aren't erasing the user entry
+so it is still displayed at the end of each turn.  Also, you don't display
+the entire string each time, only the last additional character.  Still,
+though, it works well enough to earn most of the credit.
+
+Your sort routine is flawless.
+
+Huffman does a great job, except when the output is decoded I get an extra
+"S" in the output.  You convert it to uppercase, which is fine, but on the
+decoded output for my test string "this is" I get back "THISSIS"...  Still,
+very very close for that hard problem!
+
+OUTSTANDING WORK!  You two should be very proud!!
+
+Keep it up........   :grin:
+
